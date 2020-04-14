@@ -1,34 +1,25 @@
 {
-  "_from": "umi-plugin-react@^1.15.7",
-  "_id": "umi-plugin-react@1.15.7",
-  "_inBundle": false,
-  "_integrity": "sha512-vnP8mtrxsE33qa9T8+nmWggRy/0kmxmCjkejoMCaQlDgZEn4HzfucowcW0QJMuIgx9vsvo3sINqk0ounu+gk8Q==",
-  "_location": "/umi-plugin-react",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "umi-plugin-react@^1.15.7",
-    "name": "umi-plugin-react",
-    "escapedName": "umi-plugin-react",
-    "rawSpec": "^1.15.7",
-    "saveSpec": null,
-    "fetchSpec": "^1.15.7"
+  "name": "umi-plugin-react",
+  "version": "1.10.0-beta.4",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umijs/umi/tree/master/packages/umi-plugin-react"
   },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/umi-plugin-react/-/umi-plugin-react-1.15.7.tgz",
-  "_shasum": "770f741d7cadd26d51e9136d4bbf091b8424a168",
-  "_spec": "umi-plugin-react@^1.15.7",
-  "_where": "/Users/flyye/sy/code/js/ctfex-adm",
+  "homepage": "https://github.com/umijs/umi/tree/master/packages/umi-plugin-react",
   "authors": [
     "chencheng <sorrycc@gmail.com> (https://github.com/sorrycc)"
   ],
   "bugs": {
     "url": "https://github.com/umijs/umi/issues"
   },
-  "bundleDependencies": false,
+  "files": [
+    "lib",
+    "src",
+    "locale/index.js",
+    "locale/index.d.ts"
+  ],
+  "license": "MIT",
   "dependencies": {
     "antd": "3.x",
     "antd-mobile": "2.x",
@@ -39,36 +30,17 @@
     "preact": "8.4.2",
     "preact-compat": "3.19.0",
     "register-service-worker": "1.6.2",
-    "umi-plugin-dll": "1.6.1",
-    "umi-plugin-dva": "1.11.3",
-    "umi-plugin-hd": "1.7.0",
-    "umi-plugin-locale": "2.11.5",
+    "umi-plugin-dll": "1.6.0-beta.2",
+    "umi-plugin-dva": "1.8.0-beta.2",
+    "umi-plugin-hd": "1.7.0-beta.2",
+    "umi-plugin-locale": "2.10.0-beta.2",
     "umi-plugin-polyfills": "1.4.2",
-    "umi-plugin-routes": "1.8.9",
-    "umi-plugin-ui": "1.5.3",
-    "umi-utils": "1.7.2",
-    "webpack": "4.41.1",
+    "umi-plugin-routes": "1.5.0-beta.4",
+    "umi-utils": "1.6.0-beta.2",
+    "webpack": "4.38.0",
     "workbox-webpack-plugin": "3.6.3"
   },
-  "deprecated": false,
-  "description": "React plugin set for umi.",
   "devDependencies": {
-    "umi-types": "0.5.14"
-  },
-  "files": [
-    "ui",
-    "lib",
-    "src",
-    "locale/index.js",
-    "locale/index.d.ts"
-  ],
-  "homepage": "https://github.com/umijs/umi/tree/master/packages/umi-plugin-react",
-  "license": "MIT",
-  "main": "./lib/index.js",
-  "name": "umi-plugin-react",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/umijs/umi/tree/master/packages/umi-plugin-react"
-  },
-  "version": "1.15.7"
+    "umi-types": "0.4.0-beta.4"
+  }
 }
