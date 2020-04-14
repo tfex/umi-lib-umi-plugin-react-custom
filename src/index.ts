@@ -1,4 +1,6 @@
+import { IApi } from 'umi-types';
 import { isPlainObject, isEqual } from 'lodash';
+import ui from './ui';
 
 function toObject(o) {
   if (!isPlainObject(o)) {
@@ -22,7 +24,7 @@ function diffPlugins(newOption, oldOption) {
   });
 }
 
-export default function(api, option) {
+export default function(api: IApi, option) {
   const { debug } = api;
 
   api.onOptionChange(newOption => {
@@ -91,4 +93,7 @@ export default function(api, option) {
       });
     }
   });
+
+  // umi ui
+  ui(api);
 }

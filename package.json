@@ -1,78 +1,62 @@
 {
-  "_args": [
-    [
-      "umi-plugin-react@1.7.3",
-      "/Users/flyye/sy/code/js/ctfex-web2"
-    ]
-  ],
-  "_from": "umi-plugin-react@1.7.3",
-  "_id": "umi-plugin-react@1.7.3",
+  "_from": "umi-plugin-react@^1.15.7",
+  "_id": "umi-plugin-react@1.15.7",
   "_inBundle": false,
-  "_integrity": "sha512-cE063uSuZRjZE055237WInmgLhEy1zdQyAu++TdIi/kVukFaE1LR0eTosWsZHPQpApNktol3+37HQbegxpURRw==",
+  "_integrity": "sha512-vnP8mtrxsE33qa9T8+nmWggRy/0kmxmCjkejoMCaQlDgZEn4HzfucowcW0QJMuIgx9vsvo3sINqk0ounu+gk8Q==",
   "_location": "/umi-plugin-react",
-  "_phantomChildren": {
-    "@xtuc/ieee754": "1.2.0",
-    "ajv": "6.10.0",
-    "ajv-keywords": "3.4.0",
-    "chrome-trace-event": "1.0.0",
-    "enhanced-resolve": "4.1.0",
-    "eslint-scope": "4.0.3",
-    "json-parse-better-errors": "1.0.2",
-    "loader-runner": "2.4.0",
-    "loader-utils": "1.2.3",
-    "memory-fs": "0.4.1",
-    "micromatch": "3.1.10",
-    "mkdirp": "0.5.1",
-    "neo-async": "2.6.0",
-    "node-libs-browser": "2.2.0",
-    "tapable": "1.1.1",
-    "terser-webpack-plugin": "1.2.3",
-    "watchpack": "1.6.0",
-    "webpack-sources": "1.3.0"
-  },
+  "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "range",
     "registry": true,
-    "raw": "umi-plugin-react@1.7.3",
+    "raw": "umi-plugin-react@^1.15.7",
     "name": "umi-plugin-react",
     "escapedName": "umi-plugin-react",
-    "rawSpec": "1.7.3",
+    "rawSpec": "^1.15.7",
     "saveSpec": null,
-    "fetchSpec": "1.7.3"
+    "fetchSpec": "^1.15.7"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/umi-plugin-react/-/umi-plugin-react-1.7.3.tgz",
-  "_spec": "1.7.3",
-  "_where": "/Users/flyye/sy/code/js/ctfex-web2",
+  "_resolved": "https://registry.npmjs.org/umi-plugin-react/-/umi-plugin-react-1.15.7.tgz",
+  "_shasum": "770f741d7cadd26d51e9136d4bbf091b8424a168",
+  "_spec": "umi-plugin-react@^1.15.7",
+  "_where": "/Users/flyye/sy/code/js/ctfex-adm",
   "authors": [
     "chencheng <sorrycc@gmail.com> (https://github.com/sorrycc)"
   ],
   "bugs": {
     "url": "https://github.com/umijs/umi/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "antd": "3.x",
     "antd-mobile": "2.x",
     "babel-plugin-import": "1.x",
     "fastclick": "1.0.6",
-    "lodash": "4.17.11",
+    "lodash": "4.17.13",
     "mustache": "3.0.1",
-    "preact": "8.3.1",
-    "preact-compat": "3.18.4",
-    "register-service-worker": "1.5.2",
-    "umi-plugin-dll": "1.3.1",
-    "umi-plugin-dva": "1.5.1",
-    "umi-plugin-hd": "1.4.0",
-    "umi-plugin-locale": "2.6.1",
-    "umi-plugin-polyfills": "1.4.0",
-    "umi-plugin-routes": "1.2.2",
-    "webpack": "4.28.4",
+    "preact": "8.4.2",
+    "preact-compat": "3.19.0",
+    "register-service-worker": "1.6.2",
+    "umi-plugin-dll": "1.6.1",
+    "umi-plugin-dva": "1.11.3",
+    "umi-plugin-hd": "1.7.0",
+    "umi-plugin-locale": "2.11.5",
+    "umi-plugin-polyfills": "1.4.2",
+    "umi-plugin-routes": "1.8.9",
+    "umi-plugin-ui": "1.5.3",
+    "umi-utils": "1.7.2",
+    "webpack": "4.41.1",
     "workbox-webpack-plugin": "3.6.3"
   },
+  "deprecated": false,
   "description": "React plugin set for umi.",
+  "devDependencies": {
+    "umi-types": "0.5.14"
+  },
   "files": [
+    "ui",
     "lib",
     "src",
     "locale/index.js",
@@ -86,11 +70,5 @@
     "type": "git",
     "url": "https://github.com/umijs/umi/tree/master/packages/umi-plugin-react"
   },
-  "umiTools": {
-    "browserFiles": [
-      "src/plugins/pwa/registerServiceWorker.js",
-      "src/plugins/title/TitleWrapper.js"
-    ]
-  },
-  "version": "1.7.3"
+  "version": "1.15.7"
 }
